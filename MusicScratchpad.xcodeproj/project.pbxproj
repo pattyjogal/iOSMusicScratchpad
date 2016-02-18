@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5741E0CC1C75859300BA937D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741E0CB1C75859300BA937D /* AppDelegate.swift */; };
+		5741E0CE1C75859300BA937D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741E0CD1C75859300BA937D /* FirstViewController.swift */; };
+		5741E0D01C75859300BA937D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741E0CF1C75859300BA937D /* SecondViewController.swift */; };
+		5741E0D31C75859300BA937D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5741E0D11C75859300BA937D /* Main.storyboard */; };
+		5741E0D51C75859400BA937D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5741E0D41C75859400BA937D /* Images.xcassets */; };
+		5741E0D81C75859400BA937D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5741E0D61C75859400BA937D /* LaunchScreen.xib */; };
+		5741E0E41C75859400BA937D /* MusicScratchpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741E0E31C75859400BA937D /* MusicScratchpadTests.swift */; };
+		5741E0EE1C7587CB00BA937D /* StaffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741E0ED1C7587CB00BA937D /* StaffView.swift */; };
+		5741E0F01C758C3C00BA937D /* DisplayDimens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741E0EF1C758C3C00BA937D /* DisplayDimens.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5741E0DE1C75859400BA937D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5741E0BE1C75859300BA937D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5741E0C51C75859300BA937D;
+			remoteInfo = MusicScratchpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5741E0C61C75859300BA937D /* MusicScratchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicScratchpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5741E0CA1C75859300BA937D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5741E0CB1C75859300BA937D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5741E0CD1C75859300BA937D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5741E0CF1C75859300BA937D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5741E0D21C75859300BA937D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5741E0D41C75859400BA937D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5741E0D71C75859400BA937D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5741E0DD1C75859400BA937D /* MusicScratchpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicScratchpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5741E0E21C75859400BA937D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5741E0E31C75859400BA937D /* MusicScratchpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicScratchpadTests.swift; sourceTree = "<group>"; };
+		5741E0ED1C7587CB00BA937D /* StaffView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaffView.swift; sourceTree = "<group>"; };
+		5741E0EF1C758C3C00BA937D /* DisplayDimens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDimens.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5741E0C31C75859300BA937D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5741E0DA1C75859400BA937D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5741E0BD1C75859300BA937D = {
+			isa = PBXGroup;
+			children = (
+				5741E0C81C75859300BA937D /* MusicScratchpad */,
+				5741E0E01C75859400BA937D /* MusicScratchpadTests */,
+				5741E0C71C75859300BA937D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5741E0C71C75859300BA937D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5741E0C61C75859300BA937D /* MusicScratchpad.app */,
+				5741E0DD1C75859400BA937D /* MusicScratchpadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5741E0C81C75859300BA937D /* MusicScratchpad */ = {
+			isa = PBXGroup;
+			children = (
+				5741E0CB1C75859300BA937D /* AppDelegate.swift */,
+				5741E0CD1C75859300BA937D /* FirstViewController.swift */,
+				5741E0CF1C75859300BA937D /* SecondViewController.swift */,
+				5741E0D11C75859300BA937D /* Main.storyboard */,
+				5741E0ED1C7587CB00BA937D /* StaffView.swift */,
+				5741E0D41C75859400BA937D /* Images.xcassets */,
+				5741E0D61C75859400BA937D /* LaunchScreen.xib */,
+				5741E0C91C75859300BA937D /* Supporting Files */,
+				5741E0EF1C758C3C00BA937D /* DisplayDimens.swift */,
+			);
+			path = MusicScratchpad;
+			sourceTree = "<group>";
+		};
+		5741E0C91C75859300BA937D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5741E0CA1C75859300BA937D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5741E0E01C75859400BA937D /* MusicScratchpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				5741E0E31C75859400BA937D /* MusicScratchpadTests.swift */,
+				5741E0E11C75859400BA937D /* Supporting Files */,
+			);
+			path = MusicScratchpadTests;
+			sourceTree = "<group>";
+		};
+		5741E0E11C75859400BA937D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5741E0E21C75859400BA937D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5741E0C51C75859300BA937D /* MusicScratchpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5741E0E71C75859400BA937D /* Build configuration list for PBXNativeTarget "MusicScratchpad" */;
+			buildPhases = (
+				5741E0C21C75859300BA937D /* Sources */,
+				5741E0C31C75859300BA937D /* Frameworks */,
+				5741E0C41C75859300BA937D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicScratchpad;
+			productName = MusicScratchpad;
+			productReference = 5741E0C61C75859300BA937D /* MusicScratchpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5741E0DC1C75859400BA937D /* MusicScratchpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5741E0EA1C75859400BA937D /* Build configuration list for PBXNativeTarget "MusicScratchpadTests" */;
+			buildPhases = (
+				5741E0D91C75859400BA937D /* Sources */,
+				5741E0DA1C75859400BA937D /* Frameworks */,
+				5741E0DB1C75859400BA937D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5741E0DF1C75859400BA937D /* PBXTargetDependency */,
+			);
+			name = MusicScratchpadTests;
+			productName = MusicScratchpadTests;
+			productReference = 5741E0DD1C75859400BA937D /* MusicScratchpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5741E0BE1C75859300BA937D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Viviose;
+				TargetAttributes = {
+					5741E0C51C75859300BA937D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5741E0DC1C75859400BA937D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5741E0C51C75859300BA937D;
+					};
+				};
+			};
+			buildConfigurationList = 5741E0C11C75859300BA937D /* Build configuration list for PBXProject "MusicScratchpad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5741E0BD1C75859300BA937D;
+			productRefGroup = 5741E0C71C75859300BA937D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5741E0C51C75859300BA937D /* MusicScratchpad */,
+				5741E0DC1C75859400BA937D /* MusicScratchpadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5741E0C41C75859300BA937D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5741E0D31C75859300BA937D /* Main.storyboard in Resources */,
+				5741E0D81C75859400BA937D /* LaunchScreen.xib in Resources */,
+				5741E0D51C75859400BA937D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5741E0DB1C75859400BA937D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5741E0C21C75859300BA937D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5741E0D01C75859300BA937D /* SecondViewController.swift in Sources */,
+				5741E0EE1C7587CB00BA937D /* StaffView.swift in Sources */,
+				5741E0CC1C75859300BA937D /* AppDelegate.swift in Sources */,
+				5741E0CE1C75859300BA937D /* FirstViewController.swift in Sources */,
+				5741E0F01C758C3C00BA937D /* DisplayDimens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5741E0D91C75859400BA937D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5741E0E41C75859400BA937D /* MusicScratchpadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5741E0DF1C75859400BA937D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5741E0C51C75859300BA937D /* MusicScratchpad */;
+			targetProxy = 5741E0DE1C75859400BA937D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5741E0D11C75859300BA937D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5741E0D21C75859300BA937D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5741E0D61C75859400BA937D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5741E0D71C75859400BA937D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5741E0E51C75859400BA937D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5741E0E61C75859400BA937D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5741E0E81C75859400BA937D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicScratchpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5741E0E91C75859400BA937D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicScratchpad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5741E0EB1C75859400BA937D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicScratchpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicScratchpad.app/MusicScratchpad";
+			};
+			name = Debug;
+		};
+		5741E0EC1C75859400BA937D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicScratchpadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicScratchpad.app/MusicScratchpad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5741E0C11C75859300BA937D /* Build configuration list for PBXProject "MusicScratchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5741E0E51C75859400BA937D /* Debug */,
+				5741E0E61C75859400BA937D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5741E0E71C75859400BA937D /* Build configuration list for PBXNativeTarget "MusicScratchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5741E0E81C75859400BA937D /* Debug */,
+				5741E0E91C75859400BA937D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5741E0EA1C75859400BA937D /* Build configuration list for PBXNativeTarget "MusicScratchpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5741E0EB1C75859400BA937D /* Debug */,
+				5741E0EC1C75859400BA937D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5741E0BE1C75859300BA937D /* Project object */;
+}
