@@ -12,4 +12,11 @@ import UIKit
 class DisplayDimens {
     static var displayX : CGFloat = 0
     static var displayY : CGFloat = 0
+    static var spaceHeight : CGFloat = 0
+    static func getSubSpaceHeight() -> CGFloat{
+        return spaceHeight / 2
+    }
+    static func getSubSubSpaceHeight() -> CGFloat{
+        return spaceHeight / 4
+    }
 }

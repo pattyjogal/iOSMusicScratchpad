@@ -16,6 +16,8 @@
 		5741E0E41C75859400BA937D /* MusicScratchpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741E0E31C75859400BA937D /* MusicScratchpadTests.swift */; };
 		5741E0EE1C7587CB00BA937D /* StaffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741E0ED1C7587CB00BA937D /* StaffView.swift */; };
 		5741E0F01C758C3C00BA937D /* DisplayDimens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741E0EF1C758C3C00BA937D /* DisplayDimens.swift */; };
+		57D699581CC4817400F216F1 /* quarter_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D699571CC4817400F216F1 /* quarter_head.png */; };
+		57D6995A1CC4863A00F216F1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D699591CC4863A00F216F1 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		5741E0E31C75859400BA937D /* MusicScratchpadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicScratchpadTests.swift; sourceTree = "<group>"; };
 		5741E0ED1C7587CB00BA937D /* StaffView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaffView.swift; sourceTree = "<group>"; };
 		5741E0EF1C758C3C00BA937D /* DisplayDimens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDimens.swift; sourceTree = "<group>"; };
+		57D699571CC4817400F216F1 /* quarter_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarter_head.png; sourceTree = "<group>"; };
+		57D699591CC4863A00F216F1 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		5741E0C81C75859300BA937D /* MusicScratchpad */ = {
 			isa = PBXGroup;
 			children = (
+				57D699571CC4817400F216F1 /* quarter_head.png */,
 				5741E0CB1C75859300BA937D /* AppDelegate.swift */,
 				5741E0CD1C75859300BA937D /* FirstViewController.swift */,
 				5741E0CF1C75859300BA937D /* SecondViewController.swift */,
@@ -92,6 +97,7 @@
 				5741E0D61C75859400BA937D /* LaunchScreen.xib */,
 				5741E0C91C75859300BA937D /* Supporting Files */,
 				5741E0EF1C758C3C00BA937D /* DisplayDimens.swift */,
+				57D699591CC4863A00F216F1 /* Note.swift */,
 			);
 			path = MusicScratchpad;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5741E0D31C75859300BA937D /* Main.storyboard in Resources */,
+				57D699581CC4817400F216F1 /* quarter_head.png in Resources */,
 				5741E0D81C75859400BA937D /* LaunchScreen.xib in Resources */,
 				5741E0D51C75859400BA937D /* Images.xcassets in Resources */,
 			);
@@ -226,6 +233,7 @@
 				5741E0CC1C75859300BA937D /* AppDelegate.swift in Sources */,
 				5741E0CE1C75859300BA937D /* FirstViewController.swift in Sources */,
 				5741E0F01C758C3C00BA937D /* DisplayDimens.swift in Sources */,
+				57D6995A1CC4863A00F216F1 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +429,7 @@
 				5741E0E91C75859400BA937D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5741E0EA1C75859400BA937D /* Build configuration list for PBXNativeTarget "MusicScratchpadTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +438,7 @@
 				5741E0EC1C75859400BA937D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
