@@ -15,11 +15,20 @@ class Note{
     var octave : Int = 3
     
     
-    func getNoteFromTouch(touch: CGPoint) -> Note{
-        for index in 0...12{
+    func getNoteFromTouch(touch: CGPoint){
+        var temp : CGFloat = 0
+        for i in 0...12{
+            if ((DisplayDimens.spaceHeight * CGFloat(i) + DisplayDimens.getSubSpaceHeight() < touch.y) && (DisplayDimens.spaceHeight * CGFloat(i) >= touch.y)) {
+                temp = DisplayDimens.spaceHeight * CGFloat(i) + DisplayDimens.statusbarHeight
+                break
+            } else if (DisplayDimens.spaceHeight * CGFloat(i) + DisplayDimens.getSubSpaceHeight() - DisplayDimens.getSubSubSpaceHeight() < touch.y && DisplayDimens.spaceHeight * CGFloat(i) + DisplayDimens.getSubSpaceHeight() + DisplayDimens.getSubSubSpaceHeight() >= touch.y){
+                
+                temp = DisplayDimens.spaceHeight * CGFloat(i) + DisplayDimens.getSubSpaceHeight() + DisplayDimens.statusbarHeight
+                break
+            }
             
         }
-        return Note()
+        coords = CGPoint(x: touch.x, y: temp)
     }
 }
 

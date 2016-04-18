@@ -19,4 +19,5 @@ class DisplayDimens {
     static func getSubSubSpaceHeight() -> CGFloat{
         return spaceHeight / 4
     }
+    static var statusbarHeight : CGFloat = 0
 }

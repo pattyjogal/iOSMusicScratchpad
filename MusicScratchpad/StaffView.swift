@@ -23,11 +23,12 @@ class StaffView : UIView{
         var tabbarH : CGFloat = tbc.tabBar.frame.size.height
         let staffSpacing : CGFloat = (DisplayDimens.displayY - toolbarH - tabbarH) / CGFloat(9)
         DisplayDimens.spaceHeight = staffSpacing
+        DisplayDimens.statusbarHeight = UIApplication.sharedApplication().statusBarFrame.size.height
         var c = UIGraphicsGetCurrentContext()
         CGContextBeginPath(c)
         CGContextSetStrokeColor(c, black)
         for var i :CGFloat = 1; i <= 9; i++ {
-            var h = staffSpacing * i + UIApplication.sharedApplication().statusBarFrame.size.height
+            var h = staffSpacing * i + DisplayDimens.statusbarHeight
             
             var iteration = CGFloat(h)
             CGContextSetLineWidth(c, 5.0)
@@ -38,7 +39,9 @@ class StaffView : UIView{
         
         if drawNoteHead{
             var touchCoords : CGPoint = lastTouch.locationInView(self)
-            quarterNoteHead?.drawInRect(CGRectMake(touchCoords.x, touchCoords.y, staffSpacing * 1.78, staffSpacing))
+            var note : Note = Note()
+            note.getNoteFromTouch(touchCoords)
+            quarterNoteHead?.drawInRect(CGRectMake(note.coords.x, note.coords.y - DisplayDimens.getSubSpaceHeight(), staffSpacing * 1.78, staffSpacing))
             
 
         }
